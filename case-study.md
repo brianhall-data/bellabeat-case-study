@@ -16,40 +16,107 @@ Bellabeat aims to enhance its market position by leveraging data analysis to und
 - Supporting visualizations and key findings
 - High-level recommendations based on the analysis
 
-## Prepare
+### Prepare
 
-### Data Collection
+For this case study, I utilized data from the "FitBit Fitness Tracker Data" available on Kaggle. Specifically, I used the following datasets:
+- **dailyCalories_merged.csv**
+- **dailySteps_merged.csv**
+- **sleepDay_merged.csv**
 
-1. **Source Data:**
-   - Data was collected from two pivot tables. The first pivot table provides average total steps, and the second pivot table provides average total minutes asleep.
+**Data Preparation Steps:**
 
-2. **Data Extraction:**
-   - The IDs of interest were identified and extracted from both pivot tables. These IDs were selected based on specific criteria relevant to the analysis.
+1. **Data Integration:** 
+   - Combined the data from the three CSV files to analyze various aspects of user activity and health metrics. This involved aligning the datasets based on common identifiers such as User ID and Date.
 
-### Data Cleaning
+2. **Data Cleaning:**
+   - Addressed any missing or inconsistent data points to ensure accuracy in the analysis. This included:
+     - Removing or correcting erroneous entries.
+     - Ensuring that date and time formats were standardized across all datasets.
 
-1. **Handling Missing Data:**
-   - Rows with missing information were removed to ensure the accuracy of the analysis. This was done by filtering out rows where critical columns were blank.
+3. **Data Transformation:**
+   - Prepared the data for analysis by:
+     - Aggregating daily steps and sleep data to calculate average values.
+     - Segmenting data by time of day to observe patterns in activity levels.
+     - Calculating relationships between different metrics.
 
-2. **Data Transformation:**
-   - **Formatting Dates and Times:** The date and time formats were standardized to ensure consistency across datasets. This involved converting date and time data into a format compatible with analysis tools.
-   - **Combining Data:** Data from the two pivot tables was merged based on common IDs. This integration involved aligning the datasets and consolidating information to provide a comprehensive view.
+**Visualizations Prepared:**
 
-### Data Integration
+1. **Relationship Between Average Daily Steps and Average Sleep Duration:**
+   - Created a table to examine how daily steps correlate with sleep duration, providing insights into whether increased physical activity impacts sleep quality.
 
-1. **Merging Datasets:**
-   - The cleaned datasets were merged into a single dataset using the common ID column. This was achieved using VLOOKUP to align corresponding values from each table into a unified format.
+2. **Average Daily Steps Based on Time of Day:**
+   - Developed a table to visualize how steps taken vary throughout different times of the day, helping to identify peak activity periods.
 
-2. **Verification:**
-   - After merging, the integrity of the combined data was verified to ensure that all relevant IDs were included and that the data was accurately aligned.
+3. **Relationship Between Average Calories Burned and Average Sleep Time:**
+   - Constructed a table to analyze how the number of calories burned correlates with sleep duration, offering insights into potential health benefits associated with caloric expenditure.
 
-### Data Validation
+These visualizations were designed to uncover actionable insights that can inform Bellabeat’s marketing strategy and enhance their understanding of user behavior with their smart devices.
 
-1. **Cross-Checking:**
-   - Random samples of the merged data were cross-checked against the original datasets to confirm accuracy and completeness.
+## Process
 
-2. **Consistency Checks:**
-   - Ensured that there were no discrepancies or inconsistencies in the merged data by reviewing summary statistics and comparing them with expected values.
+To analyze the Fitbit Fitness Tracker Data, I followed a structured approach that involved data cleaning, integration, and visualization:
 
-By following these steps, the dataset was prepared for analysis, ensuring that the data was clean, consistent, and ready for further examination.
+1. **Data Cleaning:**
+   - During the initial data exploration, I identified scenarios such as extreme outliers, including instances of invalid data. For example, one entry showed an individual with only 57 minutes of sleep in a day, which was identified as an outlier and excluded from the analysis.
+   - I ensured that all datasets had consistent formatting, particularly in the case of date and time entries, which were standardized across the data.
 
+2. **Tools Used:**
+   - I selected spreadsheets and Tableau for this project. These tools provided the flexibility and visualization capabilities needed to handle the dataset effectively.
+
+3. **Data Integration:**
+   - The analysis required combining data from three different datasets: 
+     - **dailyCalories_merged.csv**
+     - **dailySteps_merged.csv**
+     - **sleepDay_merged.csv**
+   - Using spreadsheets, I merged these datasets based on User ID and Date, creating a comprehensive dataset that included information on daily steps, calories burned, and sleep duration.
+
+4. **Pivot Tables and Visualizations:**
+   - I created pivot tables to facilitate the analysis of various relationships:
+     - **Average Daily Steps and Average Sleep Duration:** This table explored the correlation between the number of steps taken daily and the amount of sleep recorded, providing insights into how physical activity might influence sleep patterns.
+     - **Average Daily Steps Based on Time of Day:** This visualization identified trends in activity levels at different times, highlighting peak periods of physical activity.
+    
+| Time of Day  | Average Total Steps |
+|--------------|---------------------|
+| 12AM - 4AM   | 22                  |
+| 4AM - 8AM    | 135                 |
+| 8AM - 12PM   | 450                 |
+| 12PM - 4PM   | 508                 |
+| 4PM - 8PM    | 557                 |
+| 8PM - 12AM   | 256                 |
+
+   - **Average Calories Burned and Average Sleep Time:**
+    
+| ID          | Average Calories | Average Sleep |
+|-------------|------------------|---------------|
+| 1503960366  | 1816             | 348           |
+| 1644430081  | 2811             | 352           |
+| 1844505072  | 1573             | 683           |
+| 1927972279  | 2173             | 464           |
+| 2026352035  | 1541             | 506           |
+| 2320127002  | 1724             | 61            |
+| 2347167796  | 2043             | 447           |
+| 3977333714  | 1514             | 294           |
+| 4020332650  | 2386             | 349           |
+| 4319703577  | 2038             | 477           |
+| 4388161847  | 3094             | 403           |
+| 4445114986  | 2186             | 385           |
+| 4558609924  | 2033             | 128           |
+| 4702921684  | 2966             | 421           |
+| 5553957443  | 1876             | 463           |
+| 5577150313  | 3360             | 432           |
+| 6117666160  | 2261             | 479           |
+| 6775888955  | 2132             | 350           |
+| 6962181067  | 1982             | 448           |
+| 7007744171  | 2544             | 69            |
+| 7086361926  | 2566             | 453           |
+| 8053475328  | 2946             | 297           |
+| 8378563200  | 3437             | 443           |
+| 8792009665  | 1962             | 436           |
+
+   - This table examined how the number of calories burned correlates with sleep duration, offering potential insights into the relationship between caloric expenditure and sleep quality.
+
+5. **Data Verification:**
+   - After creating the pivot tables and visualizations, I verified the accuracy and relevance of the data. This step ensured that the analysis was based on valid and reliable data points.
+
+6. **Analysis:**
+   - With the clean, combined data and visualizations, I began analyzing the identified relationships. The analysis focused on extracting actionable insights that could inform Bellabeat's marketing strategies and provide a deeper understanding of how users interact with their devices.
