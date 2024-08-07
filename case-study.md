@@ -1,5 +1,7 @@
 ![Bellabeat Logo](https://bellabeat.com/wp-content/uploads/2023/09/Bellabeat-logo.jpg)
 
+# Harnessing Data Insights: Analyzing Smart Device Usage Trends to Drive Marketing Strategy for Bellabeat
+
 ## Introduction
 
 Bellabeat is a high-tech company that manufactures health-focused smart products designed for women. Founded by Urška Sršen and Sando Mur, Bellabeat has quickly positioned itself as a tech-driven wellness company. The company's product line includes the Bellabeat app, Leaf wellness tracker, Time watch, and Spring water bottle. These products collect data on activity, sleep, stress, and reproductive health, empowering women with knowledge about their own health and habits. Bellabeat has expanded rapidly since its inception in 2013 and has invested in a variety of marketing channels, including digital marketing and traditional advertising.
