@@ -23,13 +23,13 @@ Bellabeat aims to enhance its market position by leveraging data analysis to und
 For this case study, I utilized data from the "FitBit Fitness Tracker Data" available on Kaggle. Specifically, I used the following datasets:
 
 ## **dailyCalories_merged.csv**
-![Calories Uncleaned](calories_uncleaned.png)
+![Calories Uncleaned](uncleaned_data/calories_uncleaned.png)
 
 ## **dailySteps_merged.csv**
-![Calories Uncleaned](steps_uncleaned.png)
+![Calories Uncleaned](uncleaned_data/steps_uncleaned.png)
 
 ## **sleepDay_merged.csv**
-![Sleep Uncleaned](sleep_uncleaned.png)
+![Sleep Uncleaned](uncleaned_data/sleep_uncleaned.png)
 
 You can download the dataset from Kaggle here: <https://www.kaggle.com/datasets/arashnic/fitbit?resource=download>
 
@@ -181,15 +181,15 @@ To effectively communicate the findings, I prepared detailed visualizations to h
 
 - **Relationship Between Average Daily Steps and Average Sleep Duration:** This visualization illustrated how variations in daily steps are associated with changes in sleep quality. It provides a clear picture of how physical activity impacts sleep.
 
-![Sleep Uncleaned](steps_sleep_viz.png)
+![Sleep Uncleaned](visuals/steps_sleep_viz.png)
 
 - **Average Daily Steps Based on Time of Day:** This chart visualized activity levels across different times of the day, showing peak periods of physical activity and helping to identify when users are most active.
 
-![Sleep Uncleaned](steps_time_viz.png)
+![Sleep Uncleaned](visuals/steps_time_viz.png)
 
 - **Relationship Between Average Calories Burned and Average Sleep Time:** This visualization examined the connection between caloric expenditure and sleep duration, shedding light on how these factors are interrelated.
 
-![Sleep Uncleaned](calories_sleep_viz.png)
+![Sleep Uncleaned](visuals/calories_sleep_viz.png)
 
 Each visualization was designed to be clear, accessible, and focused on emphasizing key insights. The use of tools such as Tableau ensured that the visualizations effectively conveyed the findings to stakeholders.
 
