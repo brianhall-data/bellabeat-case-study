@@ -19,9 +19,15 @@ Bellabeat aims to enhance its market position by leveraging data analysis to und
 ### Prepare
 
 For this case study, I utilized data from the "FitBit Fitness Tracker Data" available on Kaggle. Specifically, I used the following datasets:
-- **dailyCalories_merged.csv**
-- **dailySteps_merged.csv**
-- **sleepDay_merged.csv**
+
+## **dailyCalories_merged.csv**
+![Calories Uncleaned](calories_uncleaned.png)
+
+## **dailySteps_merged.csv**
+![Calories Uncleaned](calories_uncleaned.png)
+
+## **sleepDay_merged.csv**
+![Sleep Uncleaned](sleep_uncleaned.png)
 
 **Data Preparation Steps:**
 
@@ -73,7 +79,7 @@ To analyze the Fitbit Fitness Tracker Data, I followed a structured approach tha
 4. **Pivot Tables and Visualizations:**
    - I created pivot tables to facilitate the analysis of various relationships:
      
-### **Average Daily Steps and Average Sleep Duration:**
+### **Average Daily Steps and Average Sleep Duration per User:**
        
 | ID           | Average Steps per Day | Average Sleep per Day (Minutes) |
 |--------------|-----------------------|----------------------------------|
@@ -117,7 +123,7 @@ To analyze the Fitbit Fitness Tracker Data, I followed a structured approach tha
 
  - This table identified trends in activity levels at different times, highlighting peak periods of physical activity.
    
-### **Average Calories Burned and Average Sleep Time:**
+### **Average Calories Burned and Average Sleep Time per User:**
     
 | ID          | Average Calories | Average Sleep |
 |-------------|------------------|---------------|
