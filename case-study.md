@@ -29,6 +29,8 @@ For this case study, I utilized data from the "FitBit Fitness Tracker Data" avai
 ## **sleepDay_merged.csv**
 ![Sleep Uncleaned](sleep_uncleaned.png)
 
+You can download the dataset from Kaggle here: <https://www.kaggle.com/datasets/arashnic/fitbit?resource=download>
+
 **Data Preparation Steps:**
 
 1. **Data Integration:** 
