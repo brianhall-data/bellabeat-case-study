@@ -72,8 +72,39 @@ To analyze the Fitbit Fitness Tracker Data, I followed a structured approach tha
 
 4. **Pivot Tables and Visualizations:**
    - I created pivot tables to facilitate the analysis of various relationships:
-     - **Average Daily Steps and Average Sleep Duration:** This table explored the correlation between the number of steps taken daily and the amount of sleep recorded, providing insights into how physical activity might influence sleep patterns.
-     - **Average Daily Steps Based on Time of Day:** This visualization identified trends in activity levels at different times, highlighting peak periods of physical activity.
+     
+### **Average Daily Steps and Average Sleep Duration:**
+       
+| ID           | Average Steps per Day | Average Sleep per Day (Minutes) |
+|--------------|-----------------------|----------------------------------|
+| 1503960366   | 12117                 | 360                              |
+| 1644430081   | 7283                  | 294                              |
+| 1844505072   | 2580                  | 652                              |
+| 1927972279   | 916                   | 417                              |
+| 2026352035   | 5567                  | 506                              |
+| 2320127002   | 4717                  | 61                               |
+| 2347167796   | 9520                  | 447                              |
+| 3977333714   | 10985                 | 294                              |
+| 4020332650   | 2267                  | 349                              |
+| 4319703577   | 7269                  | 477                              |
+| 4388161847   | 10814                 | 403                              |
+| 4445114986   | 4797                  | 385                              |
+| 4558609924   | 7685                  | 128                              |
+| 4702921684   | 8572                  | 421                              |
+| 5553957443   | 8613                  | 463                              |
+| 5577150313   | 8304                  | 432                              |
+| 6117666160   | 7047                  | 479                              |
+| 6775888955   | 2520                  | 350                              |
+| 6962181067   | 9795                  | 448                              |
+| 7007744171   | 11323                 | 69                               |
+| 7086361926   | 9372                  | 453                              |
+| 8053475328   | 14763                 | 297                              |
+| 8378563200   | 8718                  | 443                              |
+| 8792009665   | 1854                  | 436                              |
+
+   - This table explored the correlation between the number of steps taken daily and the amount of sleep recorded, providing insights into how physical activity might influence sleep patterns.
+     
+### **Average Daily Steps Based on Time of Day:**
     
 | Time of Day  | Average Total Steps |
 |--------------|---------------------|
@@ -84,7 +115,9 @@ To analyze the Fitbit Fitness Tracker Data, I followed a structured approach tha
 | 4PM - 8PM    | 557                 |
 | 8PM - 12AM   | 256                 |
 
-   - **Average Calories Burned and Average Sleep Time:**
+ - This table identified trends in activity levels at different times, highlighting peak periods of physical activity.
+   
+### **Average Calories Burned and Average Sleep Time:**
     
 | ID          | Average Calories | Average Sleep |
 |-------------|------------------|---------------|
