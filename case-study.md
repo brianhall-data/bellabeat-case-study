@@ -24,7 +24,7 @@ For this case study, I utilized data from the "FitBit Fitness Tracker Data" avai
 ![Calories Uncleaned](calories_uncleaned.png)
 
 ## **dailySteps_merged.csv**
-![Calories Uncleaned](calories_uncleaned.png)
+![Calories Uncleaned](steps_uncleaned.png)
 
 ## **sleepDay_merged.csv**
 ![Sleep Uncleaned](sleep_uncleaned.png)
@@ -161,3 +161,55 @@ To analyze the Fitbit Fitness Tracker Data, I followed a structured approach tha
 
 6. **Analysis:**
    - With the clean, combined data and visualizations, I began analyzing the identified relationships. The analysis focused on extracting actionable insights that could inform Bellabeat's marketing strategies and provide a deeper understanding of how users interact with their devices.
+  
+## Analyze
+
+In the analysis phase, I meticulously organized and formatted the combined dataset from `dailyCalories_merged.csv`, `dailySteps_merged.csv`, and `sleepDay_merged.csv` to ensure that the data was suitable for in-depth examination. The data cleaning process involved removing erroneous entries, such as those with extreme outliers, like instances where sleep data showed less than an hour of sleep per day. This step was crucial to avoid skewing the results.
+
+With the data cleansed, I performed a series of calculations and statistical analyses to uncover trends and relationships. I focused on three main areas:
+- The relationship between average daily steps and average sleep duration.
+- Average daily steps segmented by time of day.
+- The relationship between average calories burned and average sleep time.
+
+Through detailed analysis, I identified key patterns such as the correlation between higher levels of physical activity and improved sleep duration, as well as variations in daily steps based on different times of the day. These insights provide valuable information on user behavior and device usage.
+
+## Share
+
+To effectively communicate the findings, I prepared detailed visualizations to highlight the key insights. The visualizations included:
+
+- **Relationship Between Average Daily Steps and Average Sleep Duration:** This visualization illustrated how variations in daily steps are associated with changes in sleep quality. It provides a clear picture of how physical activity impacts sleep.
+
+![Sleep Uncleaned](steps_sleep_viz.png)
+
+- **Average Daily Steps Based on Time of Day:** This chart visualized activity levels across different times of the day, showing peak periods of physical activity and helping to identify when users are most active.
+
+![Sleep Uncleaned](steps_time_viz.png)
+
+- **Relationship Between Average Calories Burned and Average Sleep Time:** This visualization examined the connection between caloric expenditure and sleep duration, shedding light on how these factors are interrelated.
+
+![Sleep Uncleaned](calories_sleep_viz.png)
+
+Each visualization was designed to be clear, accessible, and focused on emphasizing key insights. The use of tools such as Tableau ensured that the visualizations effectively conveyed the findings to stakeholders.
+
+## Act
+
+Based on the analysis, several high-level recommendations can be made to enhance Bellabeat’s marketing strategy:
+
+- **Promote the Benefits of Physical Activity on Sleep:** Given the positive correlation between physical activity and improved sleep quality, Bellabeat should emphasize the benefits of their products in helping users achieve better sleep through increased physical activity. Marketing campaigns can highlight how using Bellabeat devices can lead to better sleep and overall wellness.
+
+- **Target Specific Times for Marketing Efforts:** The analysis of activity patterns throughout the day reveals peak periods of user activity. Bellabeat can tailor marketing messages and product promotions to align with these times, optimizing engagement and conversion rates.
+
+- **Leverage Insights on Caloric Expenditure:** The relationship between calories burned and sleep duration suggests that users who are more active might experience better sleep. Bellabeat could develop content or features that encourage users to track their caloric expenditure and its impact on their sleep, reinforcing the value of the Bellabeat products.
+
+- **Enhance Product Features Based on User Behavior:** Insights into user activity and sleep patterns can inform the development of new features or improvements to existing ones. For example, incorporating personalized recommendations for physical activity and sleep could enhance user experience and satisfaction.
+
+## Wrap-Up
+
+In conclusion, this analysis of the Fitbit Fitness Tracker Data has provided valuable insights into user behavior and device usage. By examining the relationships between daily steps, sleep duration, and caloric expenditure, we have uncovered key patterns that can guide Bellabeat's marketing strategy.
+
+The findings indicate a strong correlation between physical activity and improved sleep quality, highlighting the benefits of promoting the health advantages of increased activity. Additionally, the analysis of activity patterns throughout the day reveals optimal times for targeted marketing efforts, which can enhance user engagement and conversion rates. The connection between caloric expenditure and sleep duration further supports the potential for developing features that encourage users to track their activity and its impact on their wellness.
+
+These insights offer actionable recommendations for Bellabeat, including emphasizing the benefits of physical activity on sleep, tailoring marketing efforts to peak activity times, leveraging insights on caloric expenditure, and enhancing product features based on user behavior. Implementing these strategies can help Bellabeat strengthen its market position and drive growth in the competitive smart device industry.
+
+The insights and recommendations presented in this case study aim to support Bellabeat's mission of empowering users with knowledge about their health and habits, ultimately contributing to the company's success and expansion in the global market.
+
